@@ -5,7 +5,11 @@ import PageThreadShow from "@/components/PageThreadShow.vue";
 
 const routes = [
   { path: "/", name: "Home", component: PageHome },
-  { path: "/thread/:id", name: "ThreadShow", component: PageThreadShow },
+  {
+    path: "/thread/:id",
+    name: "ThreadShow",
+    component: PageThreadShow,
+  },
 ];
 
 const router = createRouter({
